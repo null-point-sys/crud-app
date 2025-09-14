@@ -37,6 +37,8 @@ Este comando compila el proyecto (debes dejar corriendo esta consola) y verás a
 **✅ Verificar**: Abrir `http://localhost:8080/api/productos/health`
 **Respuesta esperada**: "Producto API is running"
 
+----
+
 ### 3. Validar Swagger que consiste en la documentación de los endpoints del proyecto:  
 
 **✅ Verificar**: Abrir http://localhost:8080/swagger-ui.html
