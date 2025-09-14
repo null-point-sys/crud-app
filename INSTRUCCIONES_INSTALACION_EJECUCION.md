@@ -16,7 +16,7 @@ que descarga automáticamente la versión correcta de Maven. Es como tener Maven
 ### 1. conectar la Base de Datos desde el proyecto Spring Boot: 
 
 ver guía en `MYSQL_SETUP.md`
-
+----
 ### 2. Ejecutar Backend Spring Boot Maven
 
 > **💡 Nota importante**: El comando `mvnw.cmd` está dentro de la carpeta `crud-app`, no en el directorio raíz.
