@@ -138,7 +138,7 @@ Con `spring.jpa.hibernate.ddl-auto=update`, Hibernate:
 ✅ **NO elimina datos** existentes
 ✅ **Maneja las relaciones** entre tablas
 
-## 🗂️ Estructura de Tabla Creada por Hibernate desde el proyecto JAVA Maven
+## Estructura de Tabla Creada por Hibernate desde el proyecto JAVA Maven
 
 Hibernate creará automáticamente esta tabla a partir de la entidad Producto.java
 
