@@ -53,7 +53,7 @@ npm install  			(instala la carpeta node_modules para React)
 npm start				(inicializa el front en el navegador)
 ```
 
-**✅ Verificar**: Abrir `http://localhost:3000`
+**✅ Verificar**: Abrir http://localhost:3000
 
 ----
 
