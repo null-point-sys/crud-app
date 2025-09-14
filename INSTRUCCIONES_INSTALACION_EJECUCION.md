@@ -8,7 +8,7 @@ si no se cuenta con una versión superior a la 17 instalada en el equipo se pued
 
 - **MySQL 8.0+** (ver guía en `MYSQL_SETUP.md`)
 
-- **Node.js 16+** (verificar con `node --version`)
+- **Node.js 16+** (verificar con `node --version`) si no se cuenta con Node JS en el equipo puede descargarse desde: https://nodejs.org/en
 
 > **✅ NO necesitas Maven**: El proyecto incluye **Maven Wrapper** (`mvnw`/`mvnw.cmd`) 
 que descarga automáticamente la versión correcta de Maven. Es como tener Maven "incluido" en el proyecto.
