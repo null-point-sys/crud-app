@@ -38,7 +38,7 @@ Este comando compila el proyecto (debes dejar corriendo esta consola) y verás a
 
 ### 3. Validar Swagger que consiste en la documentación de los endpoints del proyecto:  
 
-http://localhost:8080/swagger-ui.html
+**✅ Verificar**: Abrir http://localhost:8080/swagger-ui.html
 
 ### 4. Ejecutar Frontend React
 
