@@ -93,7 +93,7 @@ que descarga automáticamente la versión correcta de Maven. Es como tener Maven
 ver guía en `MYSQL_SETUP.md`
 
 ----
-### 2. Ejecutar Backend Spring Boot Maven
+### 2. Ejecutar Backend Spring Boot Maven (No requiere MAVEN o Spring Boot IDE instalados en el equipo) 
 
 > **💡 Nota importante**: El comando `mvnw.cmd` está dentro de la carpeta `crud-app`, no en el directorio raíz.
 > es decir desde mi perspectiva: C:\...\Downloads\crud-app\crud-app
