@@ -4,7 +4,7 @@
 ### Prerrequisitos Mínimos
 
 - **Java 17+** verificar con `java -version` 
-si no se cuenta con una versión superior a la 17 en la carpeta crud-app encuentras un instalador de JAVA 20 para windows: jdk-20.0.2_windows-x64_bin.exe
+si no se cuenta con una versión superior a la 17 instalada en el equipo se puede descargar JAVA 20 de este link para windows: https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html descargar: jdk-20.0.2_windows-x64_bin.exe
 
 - **MySQL 8.0+** (ver guía en `MYSQL_SETUP.md`)
 
