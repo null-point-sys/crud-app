@@ -29,17 +29,8 @@ mvnw.cmd spring-boot:run
 ```
 Este comando compila el proyecto (debes dejar corriendo esta consola) y verás algo como:
 
-...
-[INFO] --- spring-boot:3.5.5:run (default-cli) @ crud-app ---
-[INFO] Attaching agents: []
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v3.5.5)
- ...
+<img width="552" height="242" alt="image" src="https://github.com/user-attachments/assets/40110dbc-03a2-4abe-9bc7-0d0f1ff155ed" />
+
 
 
 **✅ Verificar**: Abrir `http://localhost:8080/api/productos/health`
