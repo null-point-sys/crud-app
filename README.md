@@ -1,4 +1,78 @@
+## Arquitectura de la solución:
 
+## Estructura del Proyecto
+
+```
+crud-app/
+├── crud-app/                    # Backend (Spring Boot)
+│   ├── src/main/java/com/example/crudapp/
+│   │   ├── entity/              # Entidades JPA
+│   │   ├── repository/          # Repositorios Spring Data
+│   │   ├── service/             # Lógica de negocio
+│   │   ├── controller/          # Controladores REST
+│   │   ├── dto/                 # DTOs para requests/responses
+│   │   └── config/              # Configuraciones
+│   ├── src/main/resources/
+│   │   └── application.properties
+│   └── database/                # Scripts SQL
+└── frontend/                    # Frontend (React)
+    ├── src/
+    │   ├── components/          # Componentes React
+    │   ├── App.js               # Componente principal
+    │   └── index.js             # Punto de entrada
+    └── public/                  # Archivos estáticos
+
+```
+
+### Backend (Spring Boot)
+
+- **Entidad JPA**: 			`Producto.java`
+- **Repositorio**: 			`ProductoRepository.java` 	extiende JpaRepository
+- **Servicio**: 			`ProductoService.java` 		con lógica de negocio
+- **Controlador**: 			`ProductoController.java` 	con endpoints REST
+- **DTOs**: 				Separación clara entre entidad y DTOs
+- **Validaciones**: 		Bean Validation implementada
+- **Swagger**: 				Documentación automática en `/swagger-ui.html`
+- **Función especial**: 	Combinaciones de productos implementada
+- **Cálculo inventario**: 	Valor total del inventario
+
+### Frontend (React)
+
+- **Componentes**: 		 	Estructura modular y reutilizable
+- **CRUD completo**: 	 	Crear, leer, actualizar, eliminar
+- **Búsqueda**: 		 	Filtrado en tiempo real
+- **Ordenamiento**: 	 	Sin llamadas al backend
+- **Responsive**: 		 	Funciona en móviles
+- **APIs externas**: 	 	Gatos y datos inútiles integrados según requerimiento 
+							desde https://github.com/wh-iterabb-it/meowfacts y https://uselessfacts.jsph.pl/
+- **Manejo de errores**: 	Interfaz de usuario apropiada
+
+### Base de Datos
+
+- **Hibernate DDL**: 		Tablas creadas automáticamente
+- **Conexión**: 			MySQL configurado correctamente
+- **Persistencia**: 		Datos se guardan y recuperan
+
+## Pruebas de Funcionalidad
+
+### 1. CRUD Básico
+
+1. **Crear producto**: 		Formulario funcional
+2. **Listar productos**: 	Tabla con datos
+3. **Editar producto**: 	Modal de edición
+4. **Eliminar producto**: 	Confirmación y eliminación
+
+### 2. Funcionalidades Avanzadas
+
+1. **Búsqueda**: 			Buscar por nombre/descripción
+2. **Ordenamiento**: 		Click en columnas para ordenar
+3. **Estadísticas**: 		Valor total del inventario
+4. **Combinaciones**: 		Función especial con valor máximo
+
+### 3. APIs Externas
+
+1. **Datos de gatos**: 		Modal al cargar página
+2. **Dato inútil**: 		Footer con información del día
 
 # Instrucciones de instalación y ejecución de base de datos Mysql + Back Spring Boot + Front React
 
