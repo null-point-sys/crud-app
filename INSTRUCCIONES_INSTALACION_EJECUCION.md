@@ -13,7 +13,7 @@ si no se cuenta con una versión superior a la 17 instalada en el equipo se pued
 > **✅ NO necesitas Maven**: El proyecto incluye **Maven Wrapper** (`mvnw`/`mvnw.cmd`) 
 que descarga automáticamente la versión correcta de Maven. Es como tener Maven "incluido" en el proyecto.
 ----
-### 1. conectar la Base de Datos desde el proyecto Spring Boot: 
+### 1. Conectar la Base de Datos desde el proyecto Spring Boot: 
 
 ver guía en `MYSQL_SETUP.md`
 
