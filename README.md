@@ -14,7 +14,7 @@ crud-app/
 │   │   └── config/              # Configuraciones
 │   ├── src/main/resources/
 │   │   └── application.properties
-│   └── database/                # Scripts SQL
+│   └── database/                # Scripts SQL (solo requiere crearse la BD local Hibernate crea tablas)
 └── frontend/                    # Frontend (React)
     ├── src/
     │   ├── components/          # Componentes React
