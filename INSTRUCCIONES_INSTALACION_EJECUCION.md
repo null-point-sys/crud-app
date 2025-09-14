@@ -34,7 +34,7 @@ Este comando compila el proyecto (debes dejar corriendo esta consola) y verás a
 
 <img width="552" height="242" alt="image" src="https://github.com/user-attachments/assets/40110dbc-03a2-4abe-9bc7-0d0f1ff155ed" />
 
-**✅ Verificar**: Abrir `http://localhost:8080/api/productos/health`
+**✅ Verificar**: Abrir http://localhost:8080/api/productos/health
 **Respuesta esperada**: "Producto API is running"
 
 ----
