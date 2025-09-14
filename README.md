@@ -47,7 +47,7 @@ crud-app/
 							desde https://github.com/wh-iterabb-it/meowfacts y https://uselessfacts.jsph.pl/
 - **Manejo de errores**: 	Interfaz de usuario apropiada
 
-### Base de Datos (MySql)
+### Base de Datos (MySQL)
 
 - **Hibernate DDL**: 		Tablas creadas automáticamente
 - **Conexión**: 			MySQL configurado correctamente
