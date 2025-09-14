@@ -1,6 +1,6 @@
 ## Arquitectura de la solución:
 
-## Estructura del Proyecto
+### Estructura del Proyecto
 
 ```
 crud-app/
