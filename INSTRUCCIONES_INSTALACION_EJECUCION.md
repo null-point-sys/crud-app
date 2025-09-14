@@ -43,6 +43,8 @@ Este comando compila el proyecto (debes dejar corriendo esta consola) y verás a
 
 **✅ Verificar**: Abrir http://localhost:8080/swagger-ui.html
 
+----
+
 ### 4. Ejecutar Frontend React
 
 ```bash
@@ -52,6 +54,8 @@ npm start				(inicializa el front en el navegador)
 ```
 
 **✅ Verificar**: Abrir `http://localhost:3000`
+
+----
 
 ## En este punto por el navegador se tienen 4 URLs activas:
 
