@@ -95,6 +95,10 @@ ver guía en `MYSQL_SETUP.md`
 ----
 ### 2. Ejecutar Backend Spring Boot Maven (No requiere MAVEN o Spring Boot IDE instalados en el equipo) 
 
+En primer lugar inicializar la base de datos:
+```bash
+C:\Users\...\crud-app\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin  $ mysqld --console
+```
 > **💡 Nota importante**: El comando `mvnw.cmd` está dentro de la carpeta `crud-app`, no en el directorio raíz.
 > es decir desde mi perspectiva: C:\...\Downloads\crud-app\crud-app
 
